@@ -8,7 +8,7 @@ import {
   demoVideoTitle,
   demoChannelUrl,
   demoChannelTitle,
-} from "/Users/dhruvilrana/Desktop/Code/youtube_clone/src/Utils/Constants";
+} from "../../Utils/Constants";
 
 const VideoCard = ({
   video: {

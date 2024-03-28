@@ -5,7 +5,7 @@ import { Box } from "@mui/material";
 import Videos from "../Videos/Videos.jsx";
 
 import ChannelCard from "../ChannelCard/ChannelCard";
-import { FetchFromAPI } from "/Users/dhruvilrana/Desktop/Code/youtube_clone/src/Utils/FetchFromAPI.js";
+import { FetchFromAPI } from "../../Utils/FetchFromAPI.js"
 
 const Channel = () => {
   const { id } = useParams();
