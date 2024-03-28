@@ -4,8 +4,6 @@ const BASE_URL = "https://youtube-v31.p.rapidapi.com";
 
 const options = {
   params: {
-    // part: "snippet",
-    // videoId: "M7FIvfx5J10",
     maxResults: 10,
   },
   headers: {
