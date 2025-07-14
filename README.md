@@ -1,70 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Streamly – React Video Streaming App
+> **NOTE:**  I used the `Dboy3` GitHub account to host the code, which also belongs to me. For portfolio purposes, I have included this project on my current GitHub profile as well. Both accounts are mine.
 
-## Available Scripts
+---
+## 1. What this project is about 🧑‍💻
 
-In the project directory, you can run:
+I built **Streamly**, a simple React-based video streaming app, to demonstrate how video content can be browsed, searched, and played—all in the browser. I wanted to explore React components, state management, and layout designs while creating something fun and interactive.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 2. Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Homepage with Video Feed**  
+   - Displays a list of videos with thumbnail, title, and channel info, using mock data or a provided API.
 
-### `npm test`
+2. **Search Functionality**  
+   - I added a search bar so users can filter videos by title—making the app feel more dynamic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Video Detail View**  
+   - Clicking on a video opens a detail page where it plays, and shows its title, description, and basic metadata.
 
-### `npm run build`
+4. **Responsive Design**  
+   - I used CSS modules (or styled-components) to make the app look good and adjust layouts for desktop and mobile screens.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 3. Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend:** React, React Router  
+- **Styling:** CSS modules (or styled-components)  
+- **Data Handling:** mock JSON data or simple fetch requests  
+- **Build Tool:** Create React App (`npm start`, `npm build`)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 4. How to use it
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Dhruvil316/streamly-react-project.git
+   cd streamly-react-project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies:
 
-## Learn More
+   ```bash
+   npm install
+   ```
+3. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm start
+   ```
+4. Open your browser at `http://localhost:3000` to explore the video feed and search for videos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 5. Why I built it
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* To **learn React fundamentals**: components, props, state, and routing.
+* To practice **responsive design** and styling techniques.
+* To create a **mini video platform** that is fun to use and easy to extend.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+Thanks for checking out **Streamly**! Let me know if you'd like to explore adding features or deploying it online.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
